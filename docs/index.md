@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  text: "ENCS4110"
-  name: "Computer Design Laboratory"
+  text: "Computer Design Laboratory"
+  name: "ENCS4110"
   tagline: "From Bits to Circuits: Mastering Computer Design and Interfacing"
   actions:
     - theme: brand
