@@ -2,12 +2,19 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   base: "/encs4110/",
-  head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
-  ],
+    head: [
+      [
+        'link',
+        {
+          rel: 'icon',
+          href: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="90" font-size="90">💻</text></svg>'
+        }
+      ]
+    ],
+  
 
-  title: "Microprocessor Lab",
-  description: "",
+  title: "Computer Design Laboratory",
+  description: "A collection of experiments for the course ENCS4110",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

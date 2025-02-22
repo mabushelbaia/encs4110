@@ -11,8 +11,8 @@ hero:
       text: Experiments
       link: /Experiment-1
     - theme: alt
-      text: 
-      link: /api-examples
+      text: Outline (Syllabus)
+      link: /outline 
 
 features:
   - icon: ⚡
