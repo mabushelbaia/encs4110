@@ -1,6 +1,11 @@
 import { defineConfig } from "vitepress";
+
 export default defineConfig({
-  base: "/repo/",
+  base: "/encs4110/",
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+  ],
+
   title: "Microprocessor Lab",
   description: "",
   themeConfig: {
