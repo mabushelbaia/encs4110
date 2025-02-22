@@ -1,0 +1,17 @@
+{
+  "name": "encs4110-docs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --port 8080"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
