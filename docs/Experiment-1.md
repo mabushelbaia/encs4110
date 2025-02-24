@@ -7,6 +7,7 @@ lastUpdated: true
 
 Experiemnt 1 is an introduction to ARM Assembly Language and Keil uVision5. In this experiment, we will learn how to write ARM assembly programs using Keil uVision5 and simulate them using the built-in simulator.
 
+
 ## Installation
 
 We will be using Keil uVision5 for this course. You can download it from the following link:
@@ -132,7 +133,7 @@ STOP
 
 ## Lab Work
 
-Write an ARM assembly program that performs the following operations, and observe the results in the simulator:
+Write an ARM assembly program that performs the following instructions, and observe the results in the simulator:
 
 ```asm
     MOV R2, #0x01 ; R2 = ?
