@@ -1,6 +1,8 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  cleanUrls: true,
+  lastUpdated: true, 
   base: "/encs4110/",
     head: [
       [
