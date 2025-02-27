@@ -1,6 +1,9 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  markdown: {
+    math: true
+  },
   cleanUrls: true,
   lastUpdated: true,
   base: "/encs4110/",
@@ -46,6 +49,10 @@ export default defineConfig({
             text: "Introduction to ARM Assembly",
             link: "/Experiment-1.md",
           },
+{
+            text: "ARM Data Processing Instructions",
+            link: "/Experiment-2.md",
+          },
         ],
       },
       {
@@ -58,6 +65,10 @@ export default defineConfig({
           {
             text: "ARM Documentation",
             link: "https://developer.arm.com/documentation/dui0041/latest/",
+          },
+          {
+            text: "ARM Insturction Set Summary",
+            link: "https://developer.arm.com/documentation/100165/0201/Programmers-Model/Instruction-set-summary/Processor-instructions",
           },
         ],
       },

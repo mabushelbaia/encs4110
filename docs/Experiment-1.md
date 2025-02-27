@@ -5,7 +5,7 @@ lastUpdated: true
 
 # Introduction to ARM Assembly Language and Keil uVision5 <Badge type="tip" text="Experiment 1" />
 
-Experiemnt 1 is an introduction to ARM Assembly Language and Keil uVision5. In this experiment, we will learn how to write ARM assembly programs using Keil uVision5 and simulate them using the built-in simulator.
+In this experiment, we will learn how to write ARM assembly programs using Keil uVision5 and simulate them using the built-in simulator.
 
 
 ## Installation
