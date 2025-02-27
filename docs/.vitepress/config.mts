@@ -2,30 +2,32 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   cleanUrls: true,
-  lastUpdated: true, 
+  lastUpdated: true,
   base: "/encs4110/",
-    head: [
-      [
-      'script',
-      { async: '', src:  "https://www.googletagmanager.com/gtag/js?id=G-YVX3LGJEHB"}
+  head: [
+    [
+      "script",
+      {
+        async: "",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-YVX3LGJEHB",
+      },
     ],
     [
-      'script',
+      "script",
       {},
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-YVX3LGJEHB');`
+      gtag('config', 'G-YVX3LGJEHB');`,
     ],
-      [
-        'link',
-        {
-          rel: 'icon',
-          href: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="90" font-size="90">💻</text></svg>'
-        }
-      ]
+    [
+      "link",
+      {
+        rel: "icon",
+        href: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="90" font-size="90">💻</text></svg>',
+      },
     ],
-  
+  ],
 
   title: "Computer Design Laboratory",
   description: "A collection of experiments for the course ENCS4110",
@@ -44,7 +46,6 @@ export default defineConfig({
             text: "Introduction to ARM Assembly",
             link: "/Experiment-1.md",
           },
-          
         ],
       },
       {
