@@ -110,7 +110,7 @@ Move instructions copy data between registers.
 | Instruction | Mnemonic       | Assembler Syntax  | Description                                 |
 | ----------- | -------------- | ----------------- | ------------------------------------------- |
 | MOV         | Move           | `MOV Rd, Rm`      | Moves a value from one register to another. |
-| MOVT        | Move immediate | `MOVT Rd, #imm`   | Moves a 16-bit immediate value.             |
+| MOV        | Move immediate | `MOV Rd, #imm`   | Moves an immediate value to Rd       |
 | MVN         | Move Negative  | `MVN Rd, Rm`      | Moves the bitwise NOT of a register.        |
 | MOVT        | Move Top       | `MOVT Rd, #imm16` | Moves the top 16 bits of a 32-bit value.    |
 
