@@ -216,7 +216,7 @@ $$ F = \frac{9 \times C}{5} + 32$$
 
 ### Criteria
 
-1. Use R0 to store the initial `Celsius` temperature, say 70.
-2. Use R1 to store the initial `Fahrenhiet`, say 22.
+1. Use R0 to store the initial `Celsius` temperature, say 22.
+2. Use R1 to store the initial `Fahrenhiet`, say 70.
 3. Use R2 to store the converted temperature in `Fahrenhiet`.
 4. Use R3 to store the converted temperature in `Celsius`.
