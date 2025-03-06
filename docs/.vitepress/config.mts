@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   markdown: {
-    math: true
+    math: true,
   },
   cleanUrls: true,
   lastUpdated: true,
@@ -49,9 +49,13 @@ export default defineConfig({
             text: "Introduction to ARM Assembly",
             link: "/Experiment-1.md",
           },
-{
+          {
             text: "ARM Data Processing Instructions",
             link: "/Experiment-2.md",
+          },
+          {
+            text: "ARM Flow Control Instructions",
+            link: "/Experiment-3.md",
           },
         ],
       },
