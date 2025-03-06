@@ -6,6 +6,7 @@ export default defineConfig({
   },
   cleanUrls: true,
   lastUpdated: true,
+  
   base: "/encs4110/",
   head: [
     [
@@ -33,7 +34,7 @@ export default defineConfig({
   ],
 
   title: "Computer Design Laboratory",
-  description: "A collection of experiments for the course ENCS4110",
+  description: "A comprehensive guide and resource for ARM assembly language experiments.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
