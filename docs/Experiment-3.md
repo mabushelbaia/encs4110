@@ -1,5 +1,4 @@
-
-# ARM Flow Control Instructions
+# ARM Flow Control Instructions <Badge type="tip" text="Experiment 3" />
 
 ## Examples
 
@@ -11,7 +10,7 @@
     AREA  RESET, DATA, READONLY
     EXPORT __Vectors
 __Vectors
-    DCD 0x20001000 
+    DCD 0x20001000
     DCD Reset_Handler
     ALIGN
 string1 DCB "Hello world!",0
@@ -32,7 +31,7 @@ loopCount
 countDone
 STOP
     B STOP
-    END        
+    END
 ```
 
 ### Example 2
@@ -43,7 +42,7 @@ STOP
     AREA  RESET, DATA, READONLY
     EXPORT __Vectors
 __Vectors
-    DCD 0x20001000 
+    DCD 0x20001000
     DCD Reset_Handler
     ALIGN
 SUMP DCD SUM
@@ -65,5 +64,5 @@ LOOP
     LDR R4, [R3]
 STOP
     B STOP
-    END        
+    END
 ```
