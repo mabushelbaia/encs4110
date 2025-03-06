@@ -69,3 +69,16 @@ STOP
     B STOP
     END
 ```
+
+## Lab Work
+
+Write an ARM Assembly progrom to count the number of vowels/non-vowels in a string.
+
+> **Note:** The string should be stored in the memory and the program should read the string from the memory.
+> "ARM Assembly language", 0
+
+### Criteria
+
+1. Use `R1` to hold the address of the string.
+2. Use `R2` to be the counter for the number of vowels.
+3. Use `R3` to be the counter for the number of non-vowels.
