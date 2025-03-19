@@ -58,6 +58,10 @@ export default defineConfig({
             text: "ARM Flow Control Instructions",
             link: "/Experiment-3.md",
           },
+          {
+            text: "ARM Addressing Modes",
+            link: "/Experiment-4.md",
+          }
         ],
       },
       {
