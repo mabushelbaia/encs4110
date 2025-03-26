@@ -61,6 +61,10 @@ export default defineConfig({
           {
             text: "ARM Addressing Modes",
             link: "/Experiment-4.md",
+          },
+          {
+            text: "ARM Subroutines",
+            link: "/Experiment-5.md",
           }
         ],
       },
